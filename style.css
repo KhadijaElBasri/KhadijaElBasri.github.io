@@ -77,3 +77,31 @@ i {
   margin-right: 8px;
   color: #3498db;
 }
+
+/* 📱 Responsive adjustments */
+@media (max-width: 768px) {
+  .container {
+    padding: 20px;
+    margin: 20px 10px;
+  }
+
+  header h1 {
+    font-size: 2em;
+  }
+
+  header h2 {
+    font-size: 1em;
+  }
+
+  section h3 {
+    font-size: 1.1em;
+  }
+
+  header p {
+    font-size: 0.85em;
+  }
+
+  section ul li {
+    font-size: 0.95em;
+  }
+}
