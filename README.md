@@ -1,29 +1,50 @@
-🌐 Khadija El Basri – Online CV & Web Portfolio
+# 🌐 Khadija El Basri – Online CV & Web Portfolio
 
-Welcome to my online CV repository.
+Bienvenue sur mon repository dédié à mon CV en ligne et à mon portfolio web.
 
-This project is a personal web-based CV designed to present my academic background, technical skills, and selected projects in a clear and accessible format.
+---
 
-I am currently a second-year DUT student in Data Engineering at EST El Kelaa des Sraghna (Morocco), actively seeking a technical internship (April–June) in the field of Data Engineering.
+## À propos de moi
 
-✨ Purpose of this project
-This repository serves as:
-- An online, visual version of my CV
-- A complementary showcase to my GitHub technical projects
-- A simple and professional way for recruiters to access my profile
+Je suis **Khadija El Basri**, étudiante en **2ᵉ année DUT – Ingénierie des Données (Data Engineering)** à l'**École Supérieure de Technologie – El Kelaa des Sraghna (Maroc)**.  
+Je suis passionnée par **le Big Data, la conception de pipelines de données et l’analyse de données**, et je suis actuellement **à la recherche d’un stage technique de 2 mois (avril–juin)** pour mettre en pratique mes compétences sur des projets concrets.
 
-📁 Repository content
-- index.html: Main webpage containing my CV
-- style.css: Styling and layout (responsive design)
+---
 
-🚀 Live version
-🔗 GitHub Pages: https://khadijaelbasri.github.io
+## ✨ Objectif du projet
 
-🔎 Note for recruiters
-This repository focuses on presentation and visibility.
-My technical Data Engineering projects (Big Data, Data Mining, Data Pipelines) are available in separate dedicated repositories on my GitHub profile.
+Ce repository a pour but de :
 
-📬 Contact
-- Email: khadijaelbasri.dev@gmail.com
-- LinkedIn: https://linkedin.com/in/khadija-el-basri
-- GitHub: https://github.com/KhadijaElBasri
+- Proposer une version **visuelle et accessible de mon CV**
+- Servir de **complément à mes projets techniques sur GitHub**
+- Offrir une manière **simple et professionnelle** aux recruteurs d’explorer mon profil
+
+---
+
+## 📁 Contenu du repository
+
+- `index.html` : Page principale de mon CV en ligne  
+- `style.css` : Styles et mise en page (design responsive)
+
+---
+
+## 🚀 Version en ligne
+
+🔗 [Voir le CV en ligne](https://khadijaelbasri.github.io)
+
+---
+
+## 🔎 Note pour les recruteurs
+
+Ce repository est centré sur **la présentation et la visibilité**.  
+Mes projets techniques (Big Data, Data Mining, pipelines de données) sont disponibles dans **des repositories séparés** sur mon profil GitHub.
+
+---
+
+## 📬 Contact
+
+- **Email** : khadijaelbasri.dev@gmail.com  
+- **LinkedIn** : [linkedin.com/in/khadija-el-basri](https://linkedin.com/in/khadija-el-basri)  
+- **GitHub** : [github.com/KhadijaElBasri](https://github.com/KhadijaElBasri)
+
+---
