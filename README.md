@@ -1,27 +1,29 @@
-# 🌐 Khadija El Basri - Online CV
+🌐 Khadija El Basri – Online CV & Web Portfolio
 
-Welcome to my official online CV!
+Welcome to my online CV repository.
 
-I'm **Khadija El Basri**, a first-year student in Data Engineering (DUT) at EST El Kelaa des Sraghna, Morocco. This website showcases my professional profile, skills, academic background, and personal projects — all presented in a clean and responsive web format using HTML and CSS.
+This project is a personal web-based CV designed to present my academic background, technical skills, and selected projects in a clear and accessible format.
 
-## ✨ Why this project?
+I am currently a second-year DUT student in Data Engineering at EST El Kelaa des Sraghna (Morocco), actively seeking a technical internship (April–June) in the field of Data Engineering.
 
-I created this portfolio-style CV to:
-- Present my background and projects in a visual, accessible way
-- Practice web development using real-life content
-- Share my profile with companies and recruiters through a direct and professional link
+✨ Purpose of this project
+This repository serves as:
+- An online, visual version of my CV
+- A complementary showcase to my GitHub technical projects
+- A simple and professional way for recruiters to access my profile
 
-## 📁 What's inside?
+📁 Repository content
+- index.html: Main webpage containing my CV
+- style.css: Styling and layout (responsive design)
 
-- `index.html`: The main webpage (my CV)
-- `style.css`: The design stylesheet
-- (Optional) Future sections or updates
+🚀 Live version
+🔗 GitHub Pages: https://khadijaelbasri.github.io
 
-## 🚀 View it live
+🔎 Note for recruiters
+This repository focuses on presentation and visibility.
+My technical Data Engineering projects (Big Data, Data Mining, Data Pipelines) are available in separate dedicated repositories on my GitHub profile.
 
-🔗 [Click here to view my online CV](https://khadijaelbasri.github.io)
-
----
-
-Feel free to explore my other projects on GitHub!
-
+📬 Contact
+- Email: khadijaelbasri.dev@gmail.com
+- LinkedIn: https://linkedin.com/in/khadija-el-basri
+- GitHub: https://github.com/KhadijaElBasri
