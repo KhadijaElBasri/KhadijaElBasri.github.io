@@ -47,4 +47,27 @@ This repository serves as:
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
+
+`index.html` → Main portfolio page
+
+`style.css` → Styling and UI design
+
+
+---
+
+## Note for Recruiters
+
+This repository focuses on **presentation and user experience**.
+
+👉 My technical projects (data pipelines, ML, dashboards) are available in separate repositories on my GitHub profile.
+
+---
+
+## 📫 Contact
+
+- 📧 Email: [khadijaelbasri.dev@gmail.com](mailto:khadijaelbasri.dev@gmail.com)  
+- 💼 LinkedIn: https://linkedin.com/in/khadija-el-basri  
+- 💻 GitHub: https://github.com/KhadijaElBasri  
+
+---
