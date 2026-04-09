@@ -12,20 +12,37 @@
 <body>
   <div class="container">
 
-    <header>
+    <header class="hero">
       <h1>Khadija El Basri</h1>
-      <h2>Data Engineering Student | Big Data & Streaming Enthusiast</h2>
+      <h2><span id="typing"></span></h2>
 
-      <p>
-        <i class="fas fa-envelope"></i> khadijaelbasri.dev@gmail.com |
-        <i class="fas fa-phone"></i> +212 7 68 86 88 30 <br/>
+      <div class="contact-bar">
 
-        <i class="fab fa-github"></i>
-        <a href="https://github.com/KhadijaElBasri" target="_blank">GitHub</a> |
+        <div class="contact-item">
+          <i class="fas fa-envelope"></i>
+          <span>khadijaelbasri.dev@gmail.com</span>
+        </div>
+      
+        <div class="contact-item">
+          <i class="fas fa-phone"></i>
+          <span>+212 7 68 86 88 30</span>
+        </div>
+      
+        <a href="https://github.com/KhadijaElBasri" target="_blank" class="contact-item link">
+          <i class="fab fa-github"></i>
+          <span>GitHub</span>
+        </a>
+      
+        <a href="https://linkedin.com/in/khadija-el-basri" target="_blank" class="contact-item link">
+          <i class="fab fa-linkedin"></i>
+          <span>LinkedIn</span>
+        </a>
+      
+      </div>
 
-        <i class="fab fa-linkedin"></i>
-        <a href="https://linkedin.com/in/khadija-el-basri" target="_blank">LinkedIn</a>
-      </p>
+      <button id="theme-toggle">
+        <i class="fas fa-moon"></i>
+      </button>
     </header>
 
     <section>
@@ -36,6 +53,10 @@
         Comfortable with Python, SQL, and data visualization, with hands-on experience
         in real-time data streaming using Kafka and Spark Streaming.
         Currently seeking a technical internship to contribute to impactful data projects.
+      </p>
+      <p>
+        I design scalable data systems and build real-world projects involving 
+        data pipelines, machine learning, and analytics dashboards.
       </p>
     </section>
 
@@ -60,34 +81,42 @@
     </section>
 
     <section class="projects">
-      <h3><i class="fa-solid fa-folder-open"></i> Projects</h3>
-
-      <ul>
-        <li>
-          <strong>Smart Auto-Adaptive Data Pipeline (PFE)</strong><br/>
-          Event-driven real-time data pipeline using Kafka, Spark, and Docker.
-          Monitoring with Prometheus & Grafana. Focus on scalability and performance.
-        </li>
-
-        <li>
-          <strong>Readlytics – Data Analytics Dashboard</strong><br/>
-          Full data analysis pipeline + ML model (Random Forest ~90% accuracy).
-          Interactive dashboard with Streamlit & Plotly.
-        </li>
-
-        <li>
-          <strong>GradeVista – Academic Dashboard</strong><br/>
-          Web app built with Flask & SQLite for student performance tracking.
-          Interactive dashboards and analytics.
-        </li>
-
-        <li>
-          <strong>Big Data Processing – Hadoop & Spark</strong><br/>
-          Distributed processing with HDFS, MapReduce, and Spark.
-          Performance optimization and large dataset analysis.
-        </li>
-      </ul>
-    </section>
+        <h3><i class="fa-solid fa-folder-open"></i> Projects</h3>
+      
+        <div class="project-grid">
+      
+          <div class="project-card">
+            <h4>Readlytics Dashboard</h4>
+            <p>End-to-end data analytics project with Streamlit, Plotly & ML (Random Forest).</p>
+            <a href="https://github.com/KhadijaElBasri/Readlytics-Books-Data-Analytics-Dashboard" target="_blank">View Project</a>
+          </div>
+      
+          <div class="project-card">
+            <h4>GradeVista</h4>
+            <p>Flask dashboard for academic tracking with GPA calculator & analytics.</p>
+            <a href="https://github.com/KhadijaElBasri/GradeVista-Academic-Performance-Dashboard" target="_blank">View Project</a>
+          </div>
+      
+          <div class="project-card">
+            <h4>Big Data Hadoop & Spark</h4>
+            <p>Distributed text processing with Hadoop & Spark + performance comparison.</p>
+            <a href="https://github.com/KhadijaElBasri/bigdata-hadoop-spark" target="_blank">View Project</a>
+          </div>
+      
+          <div class="project-card">
+            <h4>Data Mining Classification</h4>
+            <p>Full ML pipeline: preprocessing, training & evaluation with scikit-learn.</p>
+            <a href="https://github.com/KhadijaElBasri/data-mining-classification" target="_blank">View Project</a>
+          </div>
+      
+          <div class="project-card">
+            <h4>AI Chatbot (Gemini)</h4>
+            <p>Flask chatbot with Gemini API, chat history & modern UI.</p>
+            <a href="https://github.com/KhadijaElBasri/flask-gemini-chatbot" target="_blank">View Project</a>
+          </div>
+      
+        </div>
+      </section>
 
     <section>
       <h3><i class="fa-solid fa-briefcase"></i> Experience</h3>
@@ -109,7 +138,64 @@
         <li>English – Professional (B2, technical)</li>
       </ul>
     </section>
-
+    <script>
+        // DARK MODE
+        const btn = document.getElementById("theme-toggle");
+  
+        btn.addEventListener("click", () => {
+          document.body.classList.toggle("dark");
+  
+          const icon = btn.querySelector("i");
+          if (document.body.classList.contains("dark")) {
+            icon.classList.replace("fa-moon", "fa-sun");
+          } else {
+            icon.classList.replace("fa-sun", "fa-moon");
+          }
+        });
+  
+        // TYPING EFFECT
+        const texts = [
+          "Data Engineering Student",
+          "Big Data Enthusiast",
+          "Streaming & Analytics",
+          "Building Data Pipelines"
+        ];
+  
+        let count = 0;
+        let index = 0;
+        let currentText = "";
+        let letter = "";
+  
+        function type() {
+          if (count === texts.length) count = 0;
+  
+          currentText = texts[count];
+          letter = currentText.slice(0, ++index);
+  
+          document.getElementById("typing").textContent = letter;
+  
+          if (letter.length === currentText.length) {
+            setTimeout(erase, 1500);
+          } else {
+            setTimeout(type, 60);
+          }
+        }
+  
+        function erase() {
+          letter = currentText.slice(0, --index);
+          document.getElementById("typing").textContent = letter;
+  
+          if (letter.length === 0) {
+            count++;
+            setTimeout(type, 200);
+          } else {
+            setTimeout(erase, 30);
+          }
+        }
+  
+        type();
+      </script>
+  
   </div>
 </body>
 </html>
