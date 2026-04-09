@@ -64,10 +64,10 @@ This repository focuses on **presentation and user experience**.
 
 ---
 
-## 📫 Contact
+## Contact
 
-- 📧 Email: [khadijaelbasri.dev@gmail.com](mailto:khadijaelbasri.dev@gmail.com)  
-- 💼 LinkedIn: https://linkedin.com/in/khadija-el-basri  
-- 💻 GitHub: https://github.com/KhadijaElBasri  
+- Email: [khadijaelbasri.dev@gmail.com](mailto:khadijaelbasri.dev@gmail.com)  
+- LinkedIn: https://linkedin.com/in/khadija-el-basri  
+- GitHub: https://github.com/KhadijaElBasri  
 
 ---
