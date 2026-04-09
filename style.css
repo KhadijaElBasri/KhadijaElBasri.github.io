@@ -130,3 +130,18 @@ header p a:hover {
   }
 }
 
+.container {
+  transition: all 0.3s ease;
+}
+
+.container:hover {
+  transform: scale(1.01);
+}
+
+p {
+  line-height: 1.6;
+}
+
+strong {
+  color: #2c3e50;
+}
