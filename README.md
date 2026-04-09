@@ -1,50 +1,64 @@
-# 🌐 Khadija El Basri – Online CV & Web Portfolio
+# Khadija El Basri – Data Engineering Portfolio
 
-Bienvenue sur mon repository dédié à mon CV en ligne et à mon portfolio web.
-
----
-
-## À propos de moi
-
-Je suis **Khadija El Basri**, étudiante en **2ᵉ année DUT – Ingénierie des Données (Data Engineering)** à l'**École Supérieure de Technologie – El Kelaa des Sraghna (Maroc)**.  
-Je suis passionnée par **le Big Data, la conception de pipelines de données et l’analyse de données**, et je suis actuellement **à la recherche d’un stage technique de 2 mois (avril–juin)** pour mettre en pratique mes compétences sur des projets concrets.
+Welcome to my personal **online CV & portfolio**.
 
 ---
 
-## ✨ Objectif du projet
+## About Me
 
-Ce repository a pour but de :
+I am a **Data Engineering student** specializing in:
 
-- Proposer une version **visuelle et accessible de mon CV**
-- Servir de **complément à mes projets techniques sur GitHub**
-- Offrir une manière **simple et professionnelle** aux recruteurs d’explorer mon profil
+- Data pipelines (batch & streaming)
+- Data analysis & machine learning
+- Big Data technologies (Kafka, Spark)
 
----
-
-## 📁 Contenu du repository
-
-- `index.html` : Page principale de mon CV en ligne  
-- `style.css` : Styles et mise en page (design responsive)
+I build **end-to-end data workflows**, from exploration (EDA) to real-time processing systems.
 
 ---
 
-## 🚀 Version en ligne
+## Objective
 
-🔗 [Voir le CV en ligne](https://khadijaelbasri.github.io)
+This repository serves as:
 
----
-
-## 🔎 Note pour les recruteurs
-
-Ce repository est centré sur **la présentation et la visibilité**.  
-Mes projets techniques (Big Data, Data Mining, pipelines de données) sont disponibles dans **des repositories séparés** sur mon profil GitHub.
+- A **visual and interactive CV**
+- A **central entry point** to my technical projects
+- A **professional showcase** for recruiters
 
 ---
 
-## 📬 Contact
+## Live Version
 
-- **Email** : khadijaelbasri.dev@gmail.com  
-- **LinkedIn** : [linkedin.com/in/khadija-el-basri](https://linkedin.com/in/khadija-el-basri)  
-- **GitHub** : [github.com/KhadijaElBasri](https://github.com/KhadijaElBasri)
+https://khadijaelbasri.github.io
 
 ---
+
+## 🧠 Tech Stack
+
+- **Data Engineering:** Kafka, Spark, Spark Streaming
+- **Data Analysis:** Pandas, NumPy, Scikit-learn
+- **Visualization:** Power BI, Streamlit, Plotly
+- **Backend:** Flask
+- **Tools:** Docker, Git, Linux, Prometheus, Grafana
+
+---
+
+## Repository Structure
+
+- `index.html` → Main CV page  
+- `style.css` → Styling and responsive design  
+
+---
+
+## Note for Recruiters
+
+This repository focuses on **presentation**.
+
+- My technical work is available in **separate repositories** on my GitHub profile.
+
+---
+
+## Contact
+
+- Email: khadijaelbasri.dev@gmail.com  
+- LinkedIn: https://linkedin.com/in/khadija-el-basri  
+- GitHub: https://github.com/KhadijaElBasri  
