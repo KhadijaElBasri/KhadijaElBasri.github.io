@@ -32,7 +32,7 @@ https://khadijaelbasri.github.io
 
 ---
 
-## 🧠 Tech Stack
+## Tech Stack
 
 - **Data Engineering:** Kafka, Spark, Spark Streaming
 - **Data Analysis:** Pandas, NumPy, Scikit-learn
