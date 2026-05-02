@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Khadija El Basri - Data Engineering Portfolio</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container">
+
+    <header class="hero">
+      <h1>Khadija El Basri</h1>
+      <h2><span id="typing"></span></h2>
+
+      <div class="contact-bar">
+
+        <div class="contact-item">
+          <i class="fas fa-envelope"></i>
+          <span>khadijaelbasri.dev@gmail.com</span>
+        </div>
+      
+        <div class="contact-item">
+          <i class="fas fa-phone"></i>
+          <span>+212 7 68 86 88 30</span>
+        </div>
+      
+        <a href="https://github.com/KhadijaElBasri" target="_blank" class="contact-item link">
+          <i class="fab fa-github"></i>
+          <span>GitHub</span>
+        </a>
+      
+        <a href="https://linkedin.com/in/khadija-el-basri" target="_blank" class="contact-item link">
+          <i class="fab fa-linkedin"></i>
+          <span>LinkedIn</span>
+        </a>
+      
+      </div>
+
+      <button id="theme-toggle">
+        <i class="fas fa-moon"></i>
+      </button>
+    </header>
+
+    <section>
+      <h3><i class="fa-solid fa-user"></i> Profile</h3>
+      <p>
+        Data Engineering student specialized in data analysis and data processing.
+        I design end-to-end data workflows from EDA to event-driven pipelines.
+        Comfortable with Python, SQL, and data visualization, with hands-on experience
+        in real-time data streaming using Kafka and Spark Streaming.
+
+      </p>
+      <p>
+        I design scalable data systems and build real-world projects involving 
+        data pipelines, machine learning, and analytics dashboards.
+      </p>
+    </section>
+
+    <section>
+      <h3><i class="fa-solid fa-brain"></i> Skills</h3>
+      <ul>
+        <li><strong>Data Engineering:</strong> Kafka, Spark, Spark Streaming, Data Pipelines</li>
+        <li><strong>Data Analysis:</strong> EDA, Feature Engineering, Statistical Analysis</li>
+        <li><strong>Visualization:</strong> Power BI, Streamlit, Plotly, Matplotlib</li>
+        <li><strong>Languages:</strong> Python (Pandas, NumPy, Scikit-learn), SQL</li>
+        <li><strong>Tools:</strong> Docker, Git, Linux, Prometheus, Grafana</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3><i class="fa-solid fa-graduation-cap"></i> Education</h3>
+      <p>
+        DUT in Data Engineering (2024 – 2026, ongoing)<br/>
+        École Supérieure de Technologie – El Kelaa des Sraghna<br/>
+        <strong>Honors:</strong> First year – High Distinction
+      </p>
+    </section>
+
+    <section class="projects">
+        <h3><i class="fa-solid fa-folder-open"></i> Projects</h3>
+      
+        <div class="project-grid">
+      
+          <div class="project-card">
+            <h4>Readlytics Dashboard</h4>
+            <p>End-to-end data analytics project with Streamlit, Plotly & ML (Random Forest).</p>
+            <a href="https://github.com/KhadijaElBasri/Readlytics-Books-Data-Analytics-Dashboard" target="_blank">View Project</a>
+          </div>
+      
+          <div class="project-card">
+            <h4>GradeVista</h4>
+            <p>Flask dashboard for academic tracking with GPA calculator & analytics.</p>
+            <a href="https://github.com/KhadijaElBasri/GradeVista-Academic-Performance-Dashboard" target="_blank">View Project</a>
+          </div>
+      
+          <div class="project-card">
+            <h4>Big Data Hadoop & Spark</h4>
+            <p>Distributed text processing with Hadoop & Spark + performance comparison.</p>
+            <a href="https://github.com/KhadijaElBasri/bigdata-hadoop-spark" target="_blank">View Project</a>
+          </div>
+      
+          <div class="project-card">
+            <h4>Data Mining Classification</h4>
+            <p>Full ML pipeline: preprocessing, training & evaluation with scikit-learn.</p>
+            <a href="https://github.com/KhadijaElBasri/data-mining-classification" target="_blank">View Project</a>
+          </div>
+      
+<div class="project-card">
+            <h4>AI Chatbot (Gemini)</h4>
+            <p>Flask chatbot with Gemini API, chat history & modern UI.</p>
+            <a href="https://github.com/KhadijaElBasri/flask-gemini-chatbot" target="_blank">View Project</a>
+          </div>
+      
+          <div class="project-card">
+            <h4>IT Helpdesk Ticketing System</h4>
+            <p>Full-stack ticketing system with Flask, MySQL, Chart.js dashboards & multi-user roles.</p>
+            <a href="https://github.com/KhadijaElBasri/it-helpdesk-ticketing-system.git" target="_blank">View Project</a>
+          </div>
+      
+        </div>
+      </section>
+
+    <section>
+      <h3><i class="fa-solid fa-briefcase"></i> Experience</h3>
+      <p>
+        <strong>Technical Intern – Menara Préfa (2025)</strong><br/>
+        Developed a HelpDesk web application using Flask & MySQL.<br/>
+        - Multi-user system (admin, technician, employee)<br/>
+        - Ticket management system (status, priority, categories)<br/>
+        - Interactive dashboards (Chart.js)<br/>
+        - CRUD operations and data structuring
+      </p>
+    </section>
+
+    <section>
+      <h3><i class="fa-solid fa-earth-americas"></i> Languages</h3>
+      <ul>
+        <li>Arabic – Native</li>
+        <li>French – Intermediate (B1)</li>
+        <li>English – Professional (B2, technical)</li>
+      </ul>
+    </section>
+    <script>
+        // DARK MODE
+        const btn = document.getElementById("theme-toggle");
+  
+        btn.addEventListener("click", () => {
+          document.body.classList.toggle("dark");
+  
+          const icon = btn.querySelector("i");
+          if (document.body.classList.contains("dark")) {
+            icon.classList.replace("fa-moon", "fa-sun");
+          } else {
+            icon.classList.replace("fa-sun", "fa-moon");
+          }
+        });
+  
+        // TYPING EFFECT
+        const texts = [
+          "Data Engineering Student",
+          "Big Data Enthusiast",
+          "Streaming & Analytics",
+          "Building Data Pipelines"
+        ];
+  
+        let count = 0;
+        let index = 0;
+        let currentText = "";
+        let letter = "";
+  
+        function type() {
+          if (count === texts.length) count = 0;
+  
+          currentText = texts[count];
+          letter = currentText.slice(0, ++index);
+  
+          document.getElementById("typing").textContent = letter;
+  
+          if (letter.length === currentText.length) {
+            setTimeout(erase, 1500);
+          } else {
+            setTimeout(type, 60);
+          }
+        }
+  
+        function erase() {
+          letter = currentText.slice(0, --index);
+          document.getElementById("typing").textContent = letter;
+  
+          if (letter.length === 0) {
+            count++;
+            setTimeout(type, 200);
+          } else {
+            setTimeout(erase, 30);
+          }
+        }
+  
+        type();
+      </script>
+  
+  </div>
+</body>
+</html>
