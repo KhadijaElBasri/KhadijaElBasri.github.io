@@ -1,100 +1,49 @@
-# Khadija El Basri — Data Science & Data Engineering Portfolio
+# Khadija El Basri — Portfolio
 
-Welcome to my personal **interactive CV and portfolio**, where I showcase my work in data engineering, business intelligence, data analysis, and machine learning.
+Personal portfolio and interactive CV showcasing my background in **Data Science, Data Engineering, Data Analytics and Business Intelligence**.
 
-**Live Portfolio:**  
-https://khadijaelbasri.github.io
+🌐 **Live Portfolio:** [khadijaelbasri.github.io](https://khadijaelbasri.github.io)
 
----
+## About this repository
 
-## About Me
+This repository contains the source code of my personal portfolio website.
 
-I am a **Bachelor student in Technology – Data Science** at EST El Kelaa des Sraghna, holding a **DUT in Data Engineering (Très Bien)**.
+It brings together my:
+- Profile and academic background
+- Technical skills
+- Professional experience
+- Selected academic and personal projects
+- Contact information and professional links
 
-I am interested in understanding what can be done with data: starting from raw data, cleaning and analysing it, then turning it into something a team can actually use.
+The portfolio is designed as a simple way to get an overview of my background and access my different projects.
 
-My background in Data Engineering taught me how data flows through pipelines and systems. I am now developing my Data Science skills to build analytical and machine learning solutions on top of that foundation.
+## Structure
 
-My work covers:
+```text
+.
+├── index.html    # Portfolio content and structure
+└── style.css     # Styling and responsive design
+```
 
-- Data pipelines (batch & streaming)
-- Business Intelligence and data modeling
-- Data analysis and machine learning
-- Big Data technologies such as Kafka and Spark
+The website also includes a **light/dark mode** and a small typing animation in the header.
 
----
+## Projects
 
-## Featured Work
+My technical projects are maintained in separate repositories on GitHub, including work in:
 
-### Professional & Internship Experience
+- Data Engineering & Big Data
+- Data Analytics & Machine Learning
+- Business Intelligence & Data Visualization
+- Web applications
 
-- **BI solution at AD-DS (internship)** — Dynamics 365 Sales and Power BI, including Dataverse data quality work, 18 business KPIs with DAX measures, and 4 Power BI dashboards. This project was completed in a company environment and is not publicly available.
+Some professional projects are not publicly available because they were developed in company environments.
 
-- **Menara Préfa — IT Helpdesk Ticketing System (internship)** — Full-stack internal support application developed with Python, Flask, SQLAlchemy, and MySQL. Includes role-based access for administrators, technicians, and employees, ticket management and assignment, authentication, dashboards, KPIs, statistics, and action history. [View repository](https://github.com/KhadijaElBasri/it-helpdesk-ticketing-system)
+## Links
 
-### Academic & Personal Projects
-
-- **Self-adaptive data pipeline (final-year project, team of three)** — A real-time pipeline that selects its processing strategy based on the incoming data. Built with Kafka, Spark, Pandas, Isolation Forest for anomaly detection, Docker, Prometheus, and Grafana. [View repository](https://github.com/KhadijaElBasri/pfe-data)
-
-- **Readlytics** — Data analytics and machine learning project built around 11,000+ Goodreads books. Includes data cleaning, EDA, feature engineering, Random Forest classification, and interactive dashboards with Streamlit, Plotly, and Power BI. [View repository](https://github.com/KhadijaElBasri/Readlytics)
-
-- **OLAP / SSAS project** — Multidimensional analysis using AdventureWorksDW, with client, product, time, and region dimensions, MDX measures, and SQL aggregations using `GROUP BY`, `ROLLUP`, and `CUBE`.
-
-> Public project repositories are available on my GitHub profile. Some professional work is not publicly available because it was completed in company environments.
----
-
-## Tech Stack
-
-### Languages
-- Python
-- SQL
-
-### Data Engineering & Big Data
-- Kafka
-- Spark / PySpark
-- Hadoop
-- ETL
-
-### Data Analysis & Machine Learning
-- Pandas
-- NumPy
-- Scikit-learn
-
-### Business Intelligence & Visualization
-- Power BI
-- DAX
-- SSAS / OLAP
-- Streamlit
-- Plotly
-
-### Tools
-- Docker
-- Git
-- Linux
-- Flask
-- Prometheus
-- Grafana
-
----
-
-## Repository Structure
-
-`index.html` → Main portfolio page
-
-`style.css` → Styling and UI design
-
----
-
-## Note for Recruiters
-
-This repository focuses on **presenting my profile, projects, and technical background**.
-
-My technical projects — including data pipelines, machine learning projects, and dashboards — are available in separate repositories on my GitHub profile.
-
----
-
-## Contact
-
-- **Email:** [khadijaelbasri.dev@gmail.com](mailto:khadijaelbasri.dev@gmail.com)
-- **LinkedIn:** [linkedin.com/in/khadija-el-basri](https://linkedin.com/in/khadija-el-basri)
+- **Portfolio:** [khadijaelbasri.github.io](https://khadijaelbasri.github.io)
 - **GitHub:** [github.com/KhadijaElBasri](https://github.com/KhadijaElBasri)
+- **LinkedIn:** [linkedin.com/in/khadija-el-basri](https://www.linkedin.com/in/khadija-el-basri)
+
+---
+
+© Khadija El Basri
